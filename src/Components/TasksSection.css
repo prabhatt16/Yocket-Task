@@ -1,0 +1,16 @@
+.taskBtnSection {
+  display: flex;
+  justify-content: center;
+  border-left: 3px solid black;
+  cursor: pointer;
+}
+.tasksBtn {
+  padding: 2px 20px 2px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.tasksBtn > h2 {
+  font-size: 18px;
+}

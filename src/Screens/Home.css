@@ -1,0 +1,55 @@
+.home {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+}
+.home > ul {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.top {
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  margin: 0 auto;
+}
+.userDetails {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-items: center;
+}
+.userDetails > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.userDetails > h1 {
+  margin-left: 12px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logoutIcon {
+  margin-left: 12px;
+  width: 29px;
+  height: 29px;
+  background-color: aquamarine;
+  border-radius: 100px;
+}
+
+.verticalLine {
+  border: 0.1px solid grey;
+  max-width: 78%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+/* .todoItem{
+    margin: 0 auto;
+    overflow: hidden;
+}
+ */

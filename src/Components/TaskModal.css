@@ -1,0 +1,19 @@
+.taskSection {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.dateSection {
+  display: block;
+  justify-content: flex-start;
+}
+.dateSection > label {
+  margin-bottom: 8px;
+}
+
+.inputArea1 {
+  overflow: hidden;
+  width: fit-content;
+  margin: 0 auto;
+  width: 100%;
+}

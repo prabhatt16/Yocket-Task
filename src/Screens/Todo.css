@@ -1,0 +1,56 @@
+.todo_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftListItem {
+  align-items: flex-start;
+  text-align: start;
+}
+.leftListItem > p {
+  margin: 0;
+  font-size: 14px;
+}
+.leftListItem > h3 {
+  margin: 0;
+  font-weight: 500;
+}
+.cardBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.dueDateSection {
+  display: block;
+  justify-content: flex-start;
+  text-align: start;
+}
+.dueDateSection > p {
+  margin: 0;
+}
+.dueDateSection > h4 {
+  margin: 0;
+  color: red;
+}
+.cardContainer {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  max-width: 600px;
+
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 600px) {
+  .cardContainer {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    width: 90%;
+
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: antiquewhite;
+  }
+}
